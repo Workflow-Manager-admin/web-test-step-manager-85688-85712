@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/web-test-step-manager-85688-85712/test_step_frontend"
+}
