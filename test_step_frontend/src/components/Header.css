@@ -1,0 +1,50 @@
+.app-header {
+  height: 64px;
+  background: var(--bg-secondary, #f8f9fa);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid var(--border-color, #e9ecef);
+  padding: 0 28px 0 28px;
+  box-sizing: border-box;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-size: 1.1rem;
+}
+
+.brand-logo {
+  font-size: 1.6em;
+}
+
+.brand-title {
+  font-family: "Segoe UI", "Arial", sans-serif;
+  color: var(--primary, #1976D2);
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 1.17em;
+}
+
+.user-area {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.user-menu-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  transition: background 0.15s;
+}
+.user-menu-btn:hover {
+  background: rgba(120, 120, 120, 0.11);
+}
+.user-avatar {
+  font-size: 1.45em;
+}
